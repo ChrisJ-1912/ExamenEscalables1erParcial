@@ -1,0 +1,6 @@
+<h1>Lista de Tareas</h1>
+<app-task-list 
+  [tasks]="tasks" 
+  (taskUpdated)="updateTask($event)" 
+  (taskDeleted)="deleteTask($event)">
+</app-task-list>
